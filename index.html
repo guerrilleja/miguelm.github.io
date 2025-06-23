@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Miguel Monje - Portfolio de Ciberseguridad. Mostrando habilidades, certificación eJPTv2 y experiencia en laboratorios de TryHackMe y HackTheBox.">
+    <meta name="keywords"
+        content="Miguel Monje, Ciberseguridad, eJPTv2, TryHackMe, HackTheBox, Portfolio, Ciberseguridad Junior">
+    <title>Miguel Monje - Portfolio de Ciberseguridad</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Or download and host locally -->
+</head>
+
+<body>
+    <!-- Elementos decorativos de ciberseguridad -->
+    <div class="cyber-grid"></div>
+    <div class="cyber-decoration">
+        <div class="cyber-circle"></div>
+        <div class="cyber-circle"></div>
+        <div class="cyber-circle"></div>
+        <div class="cyber-line"></div>
+        <div class="cyber-line"></div>
+        <div class="cyber-line"></div>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <div class="nav-logo"><a href="#hero">Miguel Monje_</a></div>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#certifications">Certificaciones</a></li>
+                <li><a href="#labs">Laboratorios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li>
+                    <button id="language-toggle" class="language-btn" type="button">
+                        <i class="fas fa-globe"></i>
+                        <span class="lang-text">ES</span>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1>Miguel Monje</h1>
+                <p class="subtitle">Profesional Junior de Ciberseguridad | Certificado eJPTv2</p>
+                <div class="hero-cta">
+                    <a href="#labs" class="btn btn-primary">Ver Mis Laboratorios</a>
+                    <a href="#contact" class="btn btn-secondary">Contactar</a>
+                </div>
+            </div>
+            <div class="scroll-down-indicator">
+                <a href="#about"><span></span>Desplazar</a>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <div class="container">
+                <h2>// Sobre Mí</h2>
+                <div class="about-content">
+                    <img src="assets/portrait.png" alt="Miguel Monje" class="profile-pic">
+                    <div class="about-text">
+                        <h3>¡Hola! Mi nombre es <span class="highlight">Miguel Monje</span></h3>
+                        <p>Soy un <span class="highlight">Técnico Informático</span> con experiencia en soporte técnico y administración de sistemas, actualmente orientado a la <span class="highlight">Ciberseguridad</span>.</p>
+                        <p>Participé en proyectos como la migración de sistemas, contenerización con Docker y, más recientemente, en el uso de herramientas como SIEM, análisis forense y prácticas de hacking ético. También obtuve la certificación <span class="highlight">eJPTv2</span>.</p>
+                        <p>Me apasiona la tecnología y busco integrarme en un equipo donde pueda seguir creciendo, aportar valor y enfrentar nuevos desafíos. <strong>¡Conectemos!</strong></p>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="content-section alt-bg">
+            <div class="container">
+                <h2>// Habilidades Principales</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fas fa-network-wired"></i>
+                        <h3>Redes</h3>
+                        <p>TCP/IP, Modelo OSI, DNS, DHCP, Firewalls, VPNs</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Conceptos de Seguridad</h3>
+                        <p>Evaluación de Vulnerabilidades, Pruebas de Penetración, Respuesta a Incidentes, Modelado de Amenazas</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-linux"></i>
+                        <h3>Sistemas Operativos</h3>
+                        <p>Linux (Kali, Ubuntu), Windows</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-terminal"></i>
+                        <h3>Herramientas</h3>
+                        <p>Nmap, Metasploit, Wireshark, Burp Suite, ZAP</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Programación</h3>
+                        <p>Python Básico, Bash</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-microchip"></i>
+                        <h3>Metodologías</h3>
+                        <p>PTES, OWASP Top 10</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="content-section">
+            <div class="container">
+                <h2>// Certificaciones</h2>
+                <div class="cert-card">
+                    <img src="assets/eJPT_Logo.png" alt="Insignia eJPTv2" class="cert-badge">
+                    <h3>eLearnSecurity Junior Penetration Tester (eJPTv2)</h3>
+                    <div class="cert-info">
+                        <div class="cert-info-item">
+                            <strong>Organización Emisora</strong>
+                            <p>INE Security</p>
+                        </div>
+                        <div class="cert-info-item">
+                            <strong>Fecha de Obtención</strong>
+                            <p>Abril 2025</p>
+                        </div>
+                    </div>
+                    <p class="cert-description">Una certificación completa y práctica que cubre metodologías y herramientas de pruebas de penetración. Valida habilidades prácticas en pruebas de penetración de redes y aplicaciones web.</p>
+                    <a href="https://certs.ine.com/d75ef907-7180-4199-b1e9-04d808ebb680#acc.Lecm6pNk" target="_blank" class="btn btn-secondary">Verificar Certificación</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="labs" class="content-section alt-bg">
+            <div class="container">
+                <h2>// Experiencia en Laboratorios</h2>
+                <p class="section-intro">Me involucro activamente en el aprendizaje práctico a través de varias plataformas para perfeccionar mis habilidades de ciberseguridad. Estas son algunas de las plataformas que utilizo:</p>
+                <div class="labs-grid">
+                    <div class="lab-platform-card">
+                        <i class="fas fa-flask platform-icon thm-icon"></i>
+                        <h3>TryHackMe</h3>
+                        <p>Completé numerosas salas y rutas de aprendizaje enfocadas en varios dominios de ciberseguridad, incluyendo explotación web, seguridad de redes y escalada de privilegios.</p>
+                        <p><em>Áreas Clave:</em> Fundamentos Web, Explotación de Redes, Escalada de Privilegios en Linux y Windows, Conceptos Básicos de Ingeniería Inversa.</p>
+                        <div class="lab-buttons">
+                            <a href="https://tryhackme.com/p/guerrilleja" target="_blank" class="btn btn-secondary">Mi Perfil THM</a>
+                            <a href="thm-machines.html" class="btn btn-primary">Writeups</a>
+                        </div>
+                    </div>
+                    <div class="lab-platform-card">
+                        <i class="fas fa-cube platform-icon htb-icon"></i>
+                        <h3>Hack The Box</h3>
+                        <p>Regularmente resuelvo máquinas y desafíos, mejorando mis habilidades en enumeración, explotación y técnicas post-explotación en diversos entornos.</p>
+                        <p><em>Áreas Clave:</em> Active Directory, Ataques a Aplicaciones Web, Explotación de Sistemas, Desafíos de Criptografía.</p>
+                        <div class="lab-buttons">
+                            <a href="https://app.hackthebox.com/profile/2223971" target="_blank" class="btn btn-secondary">Mi Perfil HTB</a>
+                            <a href="htb-machines.html" class="btn btn-primary">Writeups</a>
+                        </div>
+                    </div>
+                </div>
+                <p class="labs-outro">Estas plataformas proporcionan una experiencia invaluable en la simulación de escenarios del mundo real y mantenerse al día con las amenazas y vulnerabilidades emergentes.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <div class="container">
+                <h2>// Contacto</h2>
+                <div class="contact-card">
+                    <div class="contact-method">
+                        <a href="mailto:miguelmonjegonzalez@gmail.com" class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a class="contact-link" href="mailto:miguelmonjegonzalez@gmail.com">miguelmonjegonzalez@gmail.com</a>
+                    </div>
+                    <div class="contact-method">
+                        <a href="https://www.linkedin.com/in/miguel-monje/" target="_blank" class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a class="contact-link" href="https://www.linkedin.com/in/miguel-monje/" target="_blank">linkedin.com/in/miguel-monje/</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Miguel Monje. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
